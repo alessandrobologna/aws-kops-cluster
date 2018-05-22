@@ -15,8 +15,7 @@ $ brew update && brew install kops
 The current version for kops is `1.8.0`. The version of the kubernetes cluster is `1.8.6`. 
 Installing kops with brew will also install `kubectl`
 
-These clusters are set as HA clusters in 3 AZs, with 3 master nodes, and within 3 private subnets in a kops managed VPC. 
-For ecommerce, the clusters are set up in us-east-2 (Ohio).
+This cluster is set as a HA cluster in 3 AZs, with 3 master nodes, and within 3 private subnets in a kops managed VPC. 
 
 ---
 ## Preparation
